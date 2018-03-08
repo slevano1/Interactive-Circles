@@ -4,40 +4,7 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 var c = canvas.getContext('2d');
-// (x,y,width,height)
-// c.fillStyle = 'rgba(255, 0, 0, 0.5)';
-// c.fillRect(100, 100, 100, 100);
-// c.fillStyle = 'rgba(0, 255, 0, 0.5)';
-// c.fillRect(400, 100, 100, 100);
-// c.fillStyle = 'rgba(0, 0, 102, 1.0)';
-// c.fillRect(300, 300, 100, 100);
-// console.log(canvas);
 
-// // Line
-// //move.to = x and y coordinates
-// c.beginPath();
-// c.moveTo(50, 300);
-// c.lineTo(300, 100);//specifies where the line is going to
-// c.lineTo(400, 300);
-// c.strokeStyle ="#fa34a3"
-// c.stroke();
-
-// //Arc / Circle
-// // c.beginPath();
-// // c.arc(300, 300, 30, 0, Math.PI* 2, false);
-// // c.strokeStyle = 'blue';
-// // c.stroke(); 
-
-// //create multiple circles using a 4 loop
-// for (var i=0; i < 10; i++) {
-//     var x = Math.random() * window.innerWidth;
-//     var y = Math.random() * window.innerHeight;
-
-//     c.beginPath();
-//     c.arc(x, y, 30, 0, Math.PI* 2, false);
-//     c.strokeStyle = 'blue';
-//     c.stroke();
-// }
 
 //to get x & y values of the mouse
 var mouse = {
@@ -138,23 +105,6 @@ function animate() {
         circleArray[i].update();
     }
 
-
-
-
-    // c.beginPath();
-    // c.arc(x, y, 30, 0, Math.PI * 2, false);
-    // c.strokeStyle = 'blue';
-    // c.stroke();
-
-    // if (x + radius > innerWidth || x - radius < 0) {
-    //     dx = -dx;
-    // }
-    // if (y + radius > innerHeight || y - radius < 0) {
-    //     dy = -dy;
-    // }
-
-    // x += dx; //velocity
-    // y += dy;
 
 }
 init();
