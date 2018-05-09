@@ -18,7 +18,7 @@ var minRadius = 2;
 //color for the circles
 var colorArray = ['#D31E30', '#005A6D', '#00A199', '#DCC8A6', '#DDE0DF'];
 
-//EventListener--> function that is repeatedly fired as long as the event is happening on the screen 
+//EventListener - function that is repeatedly fired as long as the event is happening on the screen 
 //returning the x & y coordinates of the objects (circles)
 window.addEventListener('mousemove', function() {
         mouse.x = event.x;
